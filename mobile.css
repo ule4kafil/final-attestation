@@ -1,0 +1,175 @@
+@media (max-width: 767px) {
+  h1 {
+    font-size: 31px !important;
+  }
+  h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 30px !important;
+    line-height: 35px;
+    width: 335px;
+    text-align: left;
+    align-self: stretch;
+  }
+
+	.container {
+		min-width: 375px;
+		max-width: 767px;
+		width: auto;
+	}
+
+  .menu_list {
+    display: none !important;
+  }
+
+  .sign__up-btn.button {
+    display: none;
+  }
+
+  .sign .sign__in-icon {
+    display: flex;
+  }
+  .sign .sign__in-btn {
+    width: 120px;
+  }
+
+  .header .header__top {
+    padding-top: 24px;
+  }
+
+  .header__img .main {
+    display: none;
+  }
+
+  .header_box .mobile {
+    display: flex !important;
+  }
+
+  .header_box .header_content {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .header_content .btn.btn--red {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  .header .header_text {
+    margin-bottom: 0px;
+  }
+
+  .main .features {
+    padding-bottom: 60px;
+  }
+
+  .features .features__row {
+    flex-direction: column;
+  }
+
+  .features .features__row .features__column {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .features .features__column-img {
+    padding: 20px;
+  }
+
+  .features .features__item .features__column-title, .features__column-desc {
+    text-align: left;
+  }
+
+  .features__text > p {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+  .main .reports {
+    padding-bottom: 0px;
+  }
+
+  .reports.reportsContent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reports .reportsBox {
+    width: auto;
+    flex-shrink: 1;
+  }
+
+  .reports .reportsContent:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .price .price__top > p {
+    width: auto;
+    text-align: left;
+  }
+
+  .price__card .card {
+    display: none;
+  }
+
+  .price__card .card.card-white {
+    display: block;
+  }
+
+  .companies .companies__column--mini-size {
+    display: none;
+  }
+
+  .companies .companies__column-inner {
+    left: 0;
+    width: auto;
+  }
+
+  body .main {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .footer__menu {
+    display: none;
+  }
+
+  rate-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 40px;
+    gap: 16px;
+  }
+
+  .reports .reportsContent {
+    flex-direction: column;
+  }
+
+  .header .header_box {
+    overflow: visible;
+    flex-direction: column;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .header .header_box .header_content {
+    padding-top: 0;
+    margin-top: -20px;
+  }
+
+  .header__img::before {
+    display: none;
+    /* content: ""; */
+  }
+  .footer .footer__social {
+    width: 140px;
+  }
+
+  .companies__stars .rating-area {
+    justify-content: center;
+    padding-left: 40px;
+  }
+}
